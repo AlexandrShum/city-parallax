@@ -68,6 +68,20 @@ body {
   transform: translateZ(-70px);  
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .layers__container {
+    transition: transform 0.3s ease-out;;
+  }
+
+  .layer-1 {
+    inset: -40vw;
+  }
+  
+  .layer-3 {
+    inset: -15vw;
+  }
+}
+
 /* .layer-7 {
   transform: translateZ(200px);
 } */
