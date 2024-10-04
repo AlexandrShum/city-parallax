@@ -53,19 +53,19 @@ body {
 }
 
 .layer-3 {
-  transform: translateZ(-200px);
+  transform: translateZ(-250px);
 }
 
 .layer-4 {
-  transform: translateZ(-190px);
+  transform: translateZ(-220px);
 }
 
 .layer-5 {
-  transform: translateZ(-80px);  
+  transform: translateZ(-120px);  
 }
 
 .layer-6 {
-  transform: translateZ(200px);  
+  transform: translateZ(-70px);  
 }
 
 /* .layer-7 {
